@@ -4,7 +4,7 @@
 /**
  * main - Entry Point
  *
- * Description: 0-positive_or_negative (success)
+ * Description: Boolean (success)
  */
 int main(void)
 {
