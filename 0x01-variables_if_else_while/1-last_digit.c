@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - Check last digit of number generated
  *
- * Description: Return int and string (SUCCESS)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,10 +13,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d ", n);
-	if (n > 5)
+	if ((n % 10) > 5)
 	{
 		printf("and is greater than 5\n");
-	} else if (n == 0)
+	} else if ((n % 10) == 0)
 	{
 		printf("and is 0");
 	} else
