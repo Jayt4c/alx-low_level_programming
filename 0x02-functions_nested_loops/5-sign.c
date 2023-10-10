@@ -6,7 +6,8 @@
   *
   * Return: Always 0.
   */
-int print_sign(int n)
+
+int main(void)
 {
   int r;
 
