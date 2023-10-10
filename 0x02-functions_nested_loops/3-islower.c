@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * _islower - checks for lower case character
- * Description - checks for lower case
+ * @c - char for testing
  * Return: Always 0
  */
 
